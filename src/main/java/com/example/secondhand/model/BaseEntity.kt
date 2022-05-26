@@ -1,4 +1,8 @@
 package com.example.secondhand.model
 
-class BaseEntity {
+import java.time.LocalDate
+
+data class BaseEntity (val createdDate: LocalDate? = null,
+                       val updatedDate: LocalDate? = null){
+
 }
